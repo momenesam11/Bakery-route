@@ -7,12 +7,15 @@
 html {
     scroll-behavior: smooth;
     overflow-x: hidden;
+    width: 100%;
 }
 
-body{
+body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    width: 100%;
+    position: relative;
 }
 
 div.hero_section {
@@ -182,7 +185,8 @@ div.hero_section div.hero_content div.btn_container button.btn2 {
 
 div.who_we_are{
     padding: 70px 100px;
-    display: inline-block;
+    display: block;
+    width: 100%;
 }
 div.who_we_are img.who_we_are_img {
     width: 45%;
@@ -201,15 +205,18 @@ div.who_we_are div.who_we_are_content img.icon {
     width: 40px;
     border: .5px solid #dfd4c2;
     border-radius: 50px;
-    display: inline-block;
-    vertical-align: super;
+}
+
+div.who_we_are div.who_we_are_content div.list {
+    margin: 6px 0px;
+    display: flex;
+    align-items: center;
 }
 
 div.who_we_are div.who_we_are_content div.list p{
-    display: inline-block;
-    vertical-align: bottom;
     padding-left: 10px;
     color: #7f6a6a;
+    margin: 0;
 }
 
 div.who_we_are div.who_we_are_content h2 {
@@ -233,7 +240,8 @@ div.who_we_are div.who_we_are_content div.list {
 div.our_location {
     background-color: #f2f2f2;
     padding: 70px 100px;
-    display: inline-block;
+    display: block;
+    width: 100%;
 }
 
 
@@ -270,6 +278,8 @@ div.our_location div.our_location_content p {
 div.our_Baking {
         text-align: center;
         padding: 30px;
+        display: block;
+        width: 100%;
 }
 
 div.our_Baking h2 {
@@ -305,6 +315,8 @@ div.our_Baking div.our_baking_items .items{
 div.contact_information {
     padding: 70px 100px;
     margin: 25px 0px;
+    display: block;
+    width: 100%;
 }
 
 div.contact_information div.contact_information_content {
@@ -479,6 +491,7 @@ div.footer2 div.container ul li img{
         width: 100%;
         display: block;
         padding: 0;
+        margin: 0;
         float: none;
     }
     
